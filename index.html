@@ -2,64 +2,85 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="shortcut icon" href="https://i.pinimg.com/736x/aa/5b/55/aa5b554caabcde29c28cb613e23693ec.jpg">
     <link rel="stylesheet" href="app.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG - Sem Fronteiras</title>
+    <title>Carrossel</title>
 </head>
 
 <body>
 
-    <!-- Cabeçalho -->
-    <!-- <header>
-        <h1>Responsabilidade Social e Tecnológica</h1>
-        <h3>Capacitando jovens para o Mercado da Tecnologia e gerando ideais</h3>
-    </header> -->
+    <header>
+        <h1>Paisagens belas</h1>
+    </header>
 
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#cursos">Cursos</a></li>
-            </ul>
-        </nav>
+
+    <div class="container">
+        <div class="imagens">
+            <input type="radio" name="radio" id="imagem1" checked>
+            <input type="radio" name="radio" id="imagem2">
+            <input type="radio" name="radio" id="imagem3">
+            <input type="radio" name="radio" id="imagem4">
+            <input type="radio" name="radio" id="imagem5">
+            <input type="radio" name="radio" id="imagem6">
+            <input type="radio" name="radio" id="imagem7">
+            <input type="radio" name="radio" id="imagem8">
+            
+
+            <div class="imagem img1">
+                <img src="./Imgs/areia.praia.jpg" alt="Folhas">
+            </div>
+
+            <div class="imagem img2">
+                <img src="./Imgs/Folhas.jpg" alt="Folhas rosas">
+            </div>
+
+            <div class="imagem img3">
+                <img src="./Imgs/Mar.laranja.jpg" alt="Mar Laranja">
+            </div>
+
+            <div class="imagem img4">
+                <img src="./Imgs/Neve.jpg" alt="Neves">
+            </div>
+
+            <div class="imagem img5">
+                <img src="./Imgs/Praias.humano.jpg" alt="Praias com humano">
+            </div>
+
+            <div class="imagem img6">
+                <img src="./Imgs/Sol.gramas.jpg" alt="Sol e gramas">
+            </div>
+
+            <div class="imagem img7">
+                <img src="./Imgs/pedra.jpg" alt="Pedra">
+            </div>
+
+            <div class="imagem img8">
+                <img src="./Imgs/Folhas.Rosas.jpg" alt="Rosas">
+            </div>
+
+
+            
+        </div>
+
+        <div class="navegacao">
+            <label for="imagem1" class="bar"></label>
+            <label for="imagem2" class="bar"></label>
+            <label for="imagem3" class="bar"></label>
+            <label for="imagem4" class="bar"></label>
+            <label for="imagem5" class="bar"></label>
+            <label for="imagem6" class="bar"></label>
+            <label for="imagem7" class="bar"></label>
+            <label for="imagem8" class="bar"></label>
+        </div>
+
     </div>
 
-    <section id="home">
-        <h1>Responsabilidade Social e Tecnológica</h1>
-        <h3>Capacitando jovens para o Mercado da Tecnologia e gerando ideais</h3>
-    </section>
-
-    <section id="contato">
-        <h2>Entre em Contato</h2>
-        <form action="submit_form.php" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="Email">Email:</label>
-            <input type="email" name="email" id="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea name="mensagem" name="mensagem"></textarea>
-
-            <button>Enviar</button>
-        </form>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <select name="curso" id="cursos">
-        <option value="">curso</option>
-        <option value="">Programação</option>
-        <option value="">Suporte em TI</option>
-        <option value="">Microsoft</option>
-    </select>
     <footer>
-        <p>&copy;Responsabilidade Social e Tecnológica</p>
+        <p>&copy;2024 | Todos os Direitos Reservados</p>
     </footer>
+
 </body>
 
 </html>
